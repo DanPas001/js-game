@@ -1,7 +1,7 @@
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
-ctx.fillStyle("DarkTurquoise");
-ctx.fillRect(0, 0, 200, 200);
+// ctx.fillStyle("DarkTurquoise");
+// ctx.fillRect(0, 0, 200, 200);
 
 //function for making circles
 var circle = function (x, y, radius, fillCircle){
