@@ -14,6 +14,7 @@
       ctx.fillStyle("DarkTurquoise");
       ctx.fillRect(0, 0, 200, 200);
 
+      //function for making circles
       var circle = function (x, y, radius, fillCircle){
         ctx.beginPath();
         ctx.arc(x, y, radius, 0, radius.PI * 2, false);
@@ -25,6 +26,7 @@
 
       };
 
+      //function to make an flying object
       var object = function (x, y){
         ctx.lineWidth = 2;
         ctx.strokeStyle = "GoldenRod";
